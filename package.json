@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Kianimal/AimAssist/issues"
   },
-  "homepage": "https://github.com/Kianimal/AimAssist#readme"
+  "homepage": "https://github.com/Kianimal/AimAssist#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
