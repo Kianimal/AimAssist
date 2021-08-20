@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRΛCCVR</title>
+    <script src="animate.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="animate.css">
+</head>
+<body>
+    <h1 id="title">TR<span id="redTitle">Λ</span>CC<span id="redTitle">V</span>R</h1>
+
+    <div id ="container">
+        <div id="splashWrap">
+            <p id="splashTextTitle">WELCOME</p>
+            <p class="splashText">TRΛCCVR is a browser-based mouse tracking game</p>
+            <br>
+            <p class="splashText yellow">THE RULES ARE SIMPLE:</p>
+            <p class="splashTextRules"><span class="yellow">1</span>] FOLLOW THE TARGET WITH YOUR MOUSE</p>
+            <p class="splashTextRules"><span class="yellow">2</span>] THAT'S IT</p>
+            <br>
+            <p class="splashText">SOUND SIMPLE?</p>
+            <p class="splashText">TOLD YOU!</p>
+            <br>
+            <p class="splashText">BUT BE CAREFUL... IT GETS <span class="red">HARDER</span></p>
+            <br>
+        </div>
+        <div id ="animation"></div>
+        <div id="startBtnWrap">
+            <div id="startBtn" onclick="game(0)"><p id="startTxt">PLΛY</p></div> 
+        </div>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyCSuvRDAImIauW9r3Sy3VTUC_Wk_tolZUQ",
+            authDomain: "aimassist-350cf.firebaseapp.com",
+            projectId: "aimassist-350cf",
+            storageBucket: "aimassist-350cf.appspot.com",
+            messagingSenderId: "581818834530",
+            appId: "1:581818834530:web:c91dd8aedbd70c06c2bb3b",
+            measurementId: "G-GKVC569PTE"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>

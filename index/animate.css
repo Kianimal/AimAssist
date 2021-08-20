@@ -1,0 +1,320 @@
+html{
+  max-height: 890px;
+}
+
+body{
+  background-color: #545454;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#title {
+  letter-spacing: 5px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 0;
+  color: lightgoldenrodyellow;
+  text-shadow: -2px 2px 1px black,
+              2px -2px 1px black,
+              -2px -2px 1px black,
+              2px 2px 1px black,
+              4px 4px 1px black;
+}
+
+.titleSmall{
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 12px;
+  color: lightgoldenrodyellow;
+  text-shadow: 0px 0px 1.5px lightgoldenrodyellow;
+}
+
+#container {
+    width: 770px;
+    height: 770px;
+    margin: auto;
+    position: relative;
+    top: 25px;
+    background: #221E22;
+    box-shadow: 1px 1px 2px black,
+                -1px -1px 2px black,
+                1px -1px 2px black,
+                -1px 1px 2px black,
+                inset 1px 1px 2px #110,
+                inset -1px -1px 2px #110,
+                inset 1px -1px 2px #110,
+                inset -1px 1px 2px #110,
+                inset 0px 0px 5px black;
+    border: 7px solid orange;
+    border-radius: 3px;
+  }
+  
+#animation {
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top:360px;
+  left:360px;
+  background-color: lightsalmon;
+  box-shadow: 1px 1px 0px 2px #110,
+              -1px -1px 0px 2px #110,
+              1px -1px 0px 2px #110,
+              -1px 1px 0px 2px #110,
+              inset 0px 0px 3px coral,
+              inset 3px 3px 1px orangered,
+              inset -3px -3px 1px orangered,
+              inset 3px -3px 1px orangered,
+              inset -3px 3px 1px orangered,
+              inset 4px 4px 0px 1px rgb(175, 47, 0),
+              inset -4px -4px 0px 1px rgb(175, 47, 0),
+              inset 4px -4px 0px 1px rgb(175, 47, 0),
+              inset -4px 4px 0px 1px rgb(175, 47, 0),
+              inset 6px 6px 0px 1px #110,
+              inset -6px -6px 0px 1px #110,
+              inset 6px -6px 0px 1px #110,
+              inset -6px 6px 0px 1px #110;
+              /* inset 1px 1px 3px black; */
+  border-radius: 4px;
+  visibility: hidden;
+}
+
+#animation:hover {
+  background-color: lightgreen;
+  box-shadow: 1px 1px 0px 2px #110,
+              -1px -1px 0px 2px #110,
+              1px -1px 0px 2px #110,
+              -1px 1px 0px 2px #110,
+              inset 0px 0px 3px lightgreen,
+              inset 3px 3px 1px lime,
+              inset -3px -3px 1px lime,
+              inset 3px -3px 1px lime,
+              inset -3px 3px 1px lime,
+              inset 4px 4px 0px 1px limegreen,
+              inset -4px -4px 0px 1px limegreen,
+              inset 4px -4px 0px 1px limegreen,
+              inset -4px 4px 0px 1px limegreen,
+              inset 6px 6px 0px 1px #110,
+              inset -6px -6px 0px 1px #110,
+              inset 6px -6px 0px 1px #110,
+              inset -6px 6px 0px 1px #110;
+}
+
+#splashWrap{
+  width: fit-content;
+  margin: auto;
+}
+
+#splashTextTitle{
+  text-align: center;
+  color: lightgoldenrodyellow;
+  text-shadow: 0px 0px 2px lightgoldenrodyellow;
+  font-size: 96px;
+}
+
+.splashText{
+  text-align: center;
+  color: lightgoldenrodyellow;
+  text-shadow: 0px 0px 2px lightgoldenrodyellow;
+  font-size: 16px;
+}
+
+.splashTextRules{
+  width: 510px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  color: lightgoldenrodyellow;
+  text-shadow: 0px 0px 2px lightgoldenrodyellow;
+  font-size: 14px;
+}
+
+#startBtnWrap{
+  max-width: 150px;
+  margin: auto;
+}
+
+#startBtn {
+  letter-spacing: 1px;
+  cursor: pointer;
+  height: 50px;
+  border: 5px solid limegreen;
+  box-shadow: 1px 1px 2px black,
+                -1px -1px 2px black,
+                1px -1px 2px black,
+                -1px 1px 2px black,
+                inset 1px 1px 2px #110,
+                inset -1px -1px 2px #110,
+                inset 1px -1px 2px #110,
+                inset -1px 1px 2px #110;
+  border-radius: 5px;
+  background-color: darkgreen;
+  position: relative;
+  text-align: center;
+  color: lightgoldenrodyellow;
+  text-shadow: -1px 1px 1px #112,
+              1px -1px 1px #112,
+              -1px -1px 1px #112,
+              1px 1px 1px #112;
+}
+
+#startBtn:hover {
+  background-color: limegreen;
+  border: 5px solid green;
+  color: rgb(201, 255, 121);
+}
+
+#startTxt{
+  letter-spacing: 2px;
+  font-size: 24px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+#introWrap{
+  width: 650px;
+  margin: auto;
+  color: lightgoldenrodyellow;
+  font-size: 32px;
+  text-align: center;
+  line-height: 96px;
+}
+
+#introWrapBottom{
+  position: relative;
+  top: 15%;
+  width: 550px;
+  margin: auto;
+  color: lightgoldenrodyellow;
+  text-align: center;
+}
+
+#introTop{
+  text-shadow: -2px 2px 1px black,
+              2px -2px 1px black,
+              -2px -2px 1px black,
+              2px 2px 1px black,
+              3px 3px 1px black;
+  margin-top: 100px;
+}
+
+#arrow{
+  text-shadow: -2px 2px 1px black,
+              2px -2px 1px black,
+              -2px -2px 1px black,
+              2px 2px 1px black;
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  padding-left: 3px;
+  margin-top: 35px;
+  font-size: 36px;
+}
+
+#introBottom{
+  margin-top: 25px;
+  font-size: 14px;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#countdown{
+  width: 500px;
+  height: fit-content;
+  margin: auto;
+  font-size: 150px;
+  color: lightgoldenrodyellow;
+  text-align: center;
+  position: relative;
+  top: 25%;
+  transform: translate(0%,-50%);
+  text-shadow: -2px 2px 1px black,
+              2px -2px 1px black,
+              -2px -2px 1px black,
+              2px 2px 1px black,
+              4px 4px 1px black;
+}
+
+.scoreBox{
+  color: lightgoldenrodyellow;
+  text-align: center;
+  font-size: 24px;
+  margin: auto;
+  margin-top: 50px;
+  width: fit-content;
+  height: fit-content;
+}
+
+#multi{
+  opacity: 75%;
+  color: #110;
+}
+
+#gameOverWrap{
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  margin-top: 150px;
+  font-size: 72px;
+  color: lightgoldenrodyellow;
+}
+
+#scoreWrap{
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 150px;
+  font-size: 24px;
+  opacity: 75%;
+}
+
+.yellow{
+  color: gold;
+  text-shadow: 0px 0px 1.5px gold;
+}
+
+.yellowHighlight{
+  color: gold;
+  text-shadow: -2px 2px 1px black,
+                2px -2px 1px black,
+                -2px -2px 1px black,
+                2px 2px 1px black,
+                3px 3px 1px black;
+}
+
+.red{
+  color: orangered;
+  text-shadow: 0px 0px 1.5px orangered;
+}
+
+.redSmallName{
+  color: orangered;
+  text-shadow: 0px 0px 1.5px orangered;
+}
+
+.fixSpacing{
+  letter-spacing: 2px;
+}
+
+#redTitle{
+  color: orangered;
+}
+
+#versionNumber{
+  letter-spacing: -1px;
+}
