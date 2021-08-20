@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/Kianimal/AimAssist#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "firebase": "^8.10.0"
   },
   "devDependencies": {}
 }
